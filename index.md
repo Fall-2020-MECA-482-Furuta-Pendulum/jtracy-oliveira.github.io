@@ -19,12 +19,19 @@ Figure 1: The Furuta pendulum system.
 The variables used in Figure 1 are represented as follows:
 
    I_0: Inertia of the arm
+   
    L_0: Total length of the arm
+   
    l_1: Distance to center of gravity of pendulum
+   
    J_1: Inertia of pendulum
+   
    θ_0: Rotational angle of the arm
+   
    θ_1: Rotational angle of the pendulum
+   
    τ: Input torque applied to arm
+   
    m_1: Mass of pendulum
 
 The equations of motion for the Furuta pendulum were based on the Euler-Lagrance method, and the following partial derivatives were found 
@@ -36,14 +43,16 @@ Therefore, the system can be represented by
 ![Eqns of motion](Eqns of motion.png)
 
 
+**Linearization of Model**
+
+To linearize the non-linear equations of the model at the unstable equilibrium position, given by ![unstable](unstable.png) we obtain
+
+![state space rep](state space rep.png)
 
 
 
 /////////////////
 Controller Design & Simulation
-
-Code
-References
 ![Control Architecture](Control Architecture.png)
 
 
@@ -52,9 +61,9 @@ References
 
 
 
-![state space rep](state space rep.png)
 
-![unstable](unstable.png)
+
+
 
 
 **Appendix A**
@@ -174,7 +183,7 @@ plot(timeMatrix(:,1), timeMatrix(:,6))
 legend('thetao','AngularVelocityArm','theta1','ArmPosition','tau')
 
 ```
-References 
+**References** 
 
 http://kestrel.nmt.edu/~raymond/classes/ph321/notes/lagrange/lagrange.pdf
 
