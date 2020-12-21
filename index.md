@@ -141,7 +141,7 @@ legend('thetao','AngularVelocityArm','theta1','ArmPosition','tau')
 2. List
 
 **Bold** and _Italic_ and `Code` text
-
+!.[Furuta Pendulum 1](Furuta Pendulum 1.png)
 [Link](url) and ![Image](src)
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
