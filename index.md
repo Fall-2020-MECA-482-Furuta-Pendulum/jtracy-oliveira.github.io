@@ -7,7 +7,7 @@ Lydia Altman, Cyril Durovchic, Jessica Oliveira, Nathaniel Warfield, Christopher
 
 The goal of this project was to model the physical system and design the control system for a rotary inverted pendulum. There are two primary functions of the rotary inverted pendulum and they are to firstly invert the pendulum and then to maintain its unstable inverted position. This is done by applying a torque to the arm of the pendulum. The governing equations of the system were written then linearized and input into Matlab Simulink. A model of the physical system was created in CoppeliaSim. This report contains the methodology used to derive the models.
 
-!.[Furuta Pendulum 1](Furuta Pendulum 1.png)
+!.[Furuta Pendulum Drawing](Furuta Pendulum 1.png)
 
 MATLAB Code:
 ```markdown
