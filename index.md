@@ -9,7 +9,6 @@ The goal of this project was to model the physical system and design the control
 
 
 ![Furuta Pendulum Drawing](Furuta Pendulum 1.png)
-
 Figure 1
 
 
@@ -58,7 +57,6 @@ Since the control must be at a local asymptotic stable position, the Lyapunov fu
 The high level control architecture of the Furuta pendulum can be seen in Figure 2, displaying a controller with a feedback loop in the system.
 
 ![Control Architecture](Control Architecture.png)
-
 Figure 2
 
 
