@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Furuta Pendulum
 
 You can use the [editor on GitHub](https://github.com/Fall-2020-MECA-482-Furuta-Pendulum/jtracy-oliveira.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
