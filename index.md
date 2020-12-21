@@ -2,7 +2,7 @@
 
 Lydia Altman, Cyril Durovchic, Jessica Oliveira, Nathaniel Warfield, Christopher Warnberg
 
-Intro
+**Introduction**
 The goal of this project was to model the physical system and design the control system for a rotary inverted pendulum. There are two primary functions of the rotary inverted pendulum and they are to firstly invert the pendulum and then to maintain its unstable inverted position. This is done by applying a torque to the arm of the pendulum. The governing equations of the system were written then linearized and input into Matlab Simulink. A model of the physical system was created in CoppeliaSim. This report contains the methodology used to derive the models.
 
 You can use the [editor on GitHub](https://github.com/Fall-2020-MECA-482-Furuta-Pendulum/jtracy-oliveira.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
