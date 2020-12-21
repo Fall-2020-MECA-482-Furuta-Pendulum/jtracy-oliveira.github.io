@@ -18,6 +18,7 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 
 ```markdown
 Syntax highlighted code block
+
 %Furuta Pendulum Simulation Code
 %State-Space Representation
 %%Assign Arbitrary Values to Appropriate Variables
