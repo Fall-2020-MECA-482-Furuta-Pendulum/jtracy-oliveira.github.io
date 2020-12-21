@@ -1,30 +1,36 @@
 ## Furuta Pendulum
 
-Lydia Altman, Cyril Durovchic, Jessica Oliveira, Nathaniel Warfield, Christopher Warnberg
+Project Team Members: Lydia Altman, Cyril Durovchic, Jessica Oliveira, Nathaniel Warfield, Christopher Warnberg
 
 **Introduction**
 
 
-The goal of this project was to model the physical system and design the control system for a rotary inverted pendulum. There are two primary functions of the rotary inverted pendulum and they are to firstly invert the pendulum and then to maintain its unstable inverted position. This is done by applying a torque to the arm of the pendulum. The governing equations of the system were written then linearized and input into Matlab Simulink. A model of the physical system was created in CoppeliaSim. This report contains the methodology used to derive the models.
+The goal of this project was to model the physical system and design the control system for a rotary inverted pendulum, also called a Furuta pendulum. There are two primary functions of the rotary inverted pendulum and they are to firstly invert the pendulum and then to maintain its unstable inverted position. This is done by applying a torque to the arm of the pendulum. The governing equations of the system were written then linearized and input into Matlab Simulink. An attempt to make a model of the physical system in CoppeliaSim, however it was unsucsseful. This report contains the methodology used to derive the models.
+
 
 ![Furuta Pendulum Drawing](Furuta Pendulum 1.png)
 
+Figure 1: The Furuta pendulum system.
+
+
+**Modeling**
+
+
+The variables used in Figure 1 are represented as follows:
+
 I_0: Inertia of the arm
-
 L_0: Total length of the arm
-
 l_1: Distance to center of gravity of pendulum
-
 J_1: Inertia of pendulum
-
 θ_0: Rotational angle of the arm
-
 θ_1: Rotational angle of the pendulum
-
 τ: Input torque applied to arm
-
 m_1: Mass of pendulum
 
+Controller Design & Simulation
+Appendix A
+Code
+References
 ![Control Architecture](Control Architecture.png)
 
 ![Eqns of motion](Eqns of motion.png)
@@ -151,35 +157,14 @@ plot(timeMatrix(:,1), timeMatrix(:,6))
 legend('thetao','AngularVelocityArm','theta1','ArmPosition','tau')
 
 ```
+References 
+
+http://kestrel.nmt.edu/~raymond/classes/ph321/notes/lagrange/lagrange.pdf
+
+Furuta’s Pendulum: A Conservative Nonlinear Model for Theory and Practise, Hindawi Publishing Corporation Mathematical Problems in Engineering Volume 2010, Article ID 742894, 29 pages doi:10.1155/2010/742894, https://downloads.hindawi.com/journals/mpe/2010/742894.pdf
+
+Modelling the Furuta Pendulum Magnus Gäfvert Department of Automatic Control Lund Institute of Technology April 1998, https://lup.lub.lu.se/search/ws/files/4453844/8727127.pdf
+
+Analog Controller Design for Mechatronic Rotary Inverted Pendulum (Part 1) Wangling Yu1 and Hanlin Chen2,  c American Society for Engineering Education, 2018
 
 
-You can use the [editor on GitHub](https://github.com/Fall-2020-MECA-482-Furuta-Pendulum/jtracy-oliveira.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Fall-2020-MECA-482-Furuta-Pendulum/jtracy-oliveira.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
