@@ -18,14 +18,14 @@ Figure 1: The Furuta pendulum system.
 
 The variables used in Figure 1 are represented as follows:
 
-I_0: Inertia of the arm
-L_0: Total length of the arm
-l_1: Distance to center of gravity of pendulum
-J_1: Inertia of pendulum
-θ_0: Rotational angle of the arm
-θ_1: Rotational angle of the pendulum
-τ: Input torque applied to arm
-m_1: Mass of pendulum
+   I_0: Inertia of the arm
+   L_0: Total length of the arm
+   l_1: Distance to center of gravity of pendulum
+   J_1: Inertia of pendulum
+   θ_0: Rotational angle of the arm
+   θ_1: Rotational angle of the pendulum
+   τ: Input torque applied to arm
+   m_1: Mass of pendulum
 
 The equations of motion for the Furuta pendulum were based on the Euler-Lagrance method, and the following partial derivatives were found 
 
@@ -41,7 +41,7 @@ Therefore, the system can be represented by
 
 /////////////////
 Controller Design & Simulation
-Appendix A
+
 Code
 References
 ![Control Architecture](Control Architecture.png)
@@ -55,6 +55,10 @@ References
 ![state space rep](state space rep.png)
 
 ![unstable](unstable.png)
+
+
+**Appendix A**
+
 
 MATLAB Code:
 ```markdown
