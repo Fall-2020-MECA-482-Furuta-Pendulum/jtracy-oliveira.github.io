@@ -16,9 +16,8 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
+MATLAB Code:
 ```markdown
-Syntax highlighted code block
-
 %Furuta Pendulum Simulation Code
 %State-Space Representation
 %%Assign Arbitrary Values to Appropriate Variables
@@ -130,6 +129,7 @@ plot(timeMatrix(:,1), timeMatrix(:,5))
 plot(timeMatrix(:,1), timeMatrix(:,6))
 legend('thetao','AngularVelocityArm','theta1','ArmPosition','tau')
 
+```
 # Header 1
 ## Header 2
 ### Header 3
@@ -143,8 +143,6 @@ legend('thetao','AngularVelocityArm','theta1','ArmPosition','tau')
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
-```
-
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
