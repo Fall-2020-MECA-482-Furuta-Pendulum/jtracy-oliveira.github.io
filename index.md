@@ -18,6 +18,7 @@ J_1: Inertia of pendulum
 τ: Input torque applied to arm
 m_1: Mass of pendulum
 
+![Control Architecture](Control Architecture.png)
 
 MATLAB Code:
 ```markdown
