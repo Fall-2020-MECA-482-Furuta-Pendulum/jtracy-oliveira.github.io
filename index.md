@@ -10,15 +10,27 @@ The goal of this project was to model the physical system and design the control
 ![Furuta Pendulum Drawing](Furuta Pendulum 1.png)
 
 I_0: Inertia of the arm
+
 L_0: Total length of the arm
+
 l_1: Distance to center of gravity of pendulum
+
 J_1: Inertia of pendulum
+
 θ_0: Rotational angle of the arm
+
 θ_1: Rotational angle of the pendulum
+
 τ: Input torque applied to arm
+
 m_1: Mass of pendulum
 
 ![Control Architecture](Control Architecture.png)
+![Eqns of motion](Eqns of motion.png)
+![Lyapunov Eqn](Lyapunov Eqn.png)
+![Partial derivatives](Partial derivatives.png)
+![state space rep](state space rep.png)
+![unstable](unstable.png)
 
 MATLAB Code:
 ```markdown
