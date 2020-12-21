@@ -5,12 +5,12 @@ Project Team Members: Lydia Altman, Cyril Durovchic, Jessica Oliveira, Nathaniel
 **Introduction**
 
 
-The goal of this project was to model the physical system and design the control system for a rotary inverted pendulum, also called a Furuta pendulum. There are two primary functions of the rotary inverted pendulum and they are to firstly invert the pendulum and then to maintain its unstable inverted position. This is done by applying a torque to the arm of the pendulum. The governing equations of the system were written then linearized and input into Matlab Simulink. An attempt to make a model of the physical system in CoppeliaSim, however it was unsucsseful. This report contains the methodology used to derive the models.
+The goal of this project was to model the physical system and design the control system for a rotary inverted pendulum, also called a Furuta pendulum. There are two primary functions of the rotary inverted pendulum and they are to firstly invert the pendulum and then to maintain its unstable inverted position. This is done by applying a torque to the arm of the pendulum. The governing equations of the system were written then linearized and input into Matlab Simulink. An attempt to make a model of the physical system in CoppeliaSim, however it was unsucsseful. This report contains the methodology used to derive the models. Figure 1 shows the Furuta pendulum to be modeled in this project.
 
 
 ![Furuta Pendulum Drawing](Furuta Pendulum 1.png)
 
-Figure 1: The Furuta pendulum system.
+Figure 1
 
 
 **Modeling**
@@ -49,21 +49,22 @@ To linearize the non-linear equations of the model at the unstable equilibrium p
 
 ![state space rep](state space rep.png)
 
-
-
-/////////////////
-Controller Design & Simulation
-![Control Architecture](Control Architecture.png)
-
-
-
+Since the control must be at a local asymptotic stable position, the Lyapunov function was used to achieve this and balance the pendulum at the upper equilibrium point. The Lyapunov function is represented as
 ![Lyapunov Eqn](Lyapunov Eqn.png)
 
 
+**Control Theory Modeling**
+
+The high level control architecture of the Furuta pendulum can be seen in Figure 2, displaying a controller with a feedback loop in the system.
+
+![Control Architecture](Control Architecture.png)
+
+Figure 2
 
 
+**Final Considerations**
 
-
+In conclusion, knowledge about the workings and controls requirements of furuta pendulums, system modeling and simulation, and webpage design was gained through this project. Unfortunately, an accurate simulation of the pendulum was not possible given the time available for this project and the team was unable to provide useful data from the MatLab code generated. However, given enough time these elements of the project would surely have come together in a cohesive and successful manner. The knowledge and skills gained from this project will surely prove useful in future endeavors of a similar nature.
 
 
 **Appendix A**
@@ -183,6 +184,7 @@ plot(timeMatrix(:,1), timeMatrix(:,6))
 legend('thetao','AngularVelocityArm','theta1','ArmPosition','tau')
 
 ```
+
 **References** 
 
 http://kestrel.nmt.edu/~raymond/classes/ph321/notes/lagrange/lagrange.pdf
