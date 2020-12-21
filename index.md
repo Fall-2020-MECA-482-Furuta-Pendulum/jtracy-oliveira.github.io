@@ -27,17 +27,30 @@ J_1: Inertia of pendulum
 τ: Input torque applied to arm
 m_1: Mass of pendulum
 
+The equations of motion for the Furuta pendulum were based on the Euler-Lagrance method, and the following partial derivatives were found 
+
+![Partial derivatives](Partial derivatives.png)
+
+Therefore, the system can be represented by
+
+![Eqns of motion](Eqns of motion.png)
+
+
+
+
+
+/////////////////
 Controller Design & Simulation
 Appendix A
 Code
 References
 ![Control Architecture](Control Architecture.png)
 
-![Eqns of motion](Eqns of motion.png)
+
 
 ![Lyapunov Eqn](Lyapunov Eqn.png)
 
-![Partial derivatives](Partial derivatives.png)
+
 
 ![state space rep](state space rep.png)
 
