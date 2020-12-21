@@ -26,10 +26,15 @@ J_1: Inertia of pendulum
 m_1: Mass of pendulum
 
 ![Control Architecture](Control Architecture.png)
+
 ![Eqns of motion](Eqns of motion.png)
+
 ![Lyapunov Eqn](Lyapunov Eqn.png)
+
 ![Partial derivatives](Partial derivatives.png)
+
 ![state space rep](state space rep.png)
+
 ![unstable](unstable.png)
 
 MATLAB Code:
